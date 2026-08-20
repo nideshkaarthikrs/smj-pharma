@@ -247,11 +247,11 @@ function Hero() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href="tel:+910000000000"
+              href="tel:+919486162733"
               className="lift-on-hover inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md text-white border border-white/20 font-medium px-7 py-4 rounded-full"
             >
               <Phone className="h-4 w-4" />
-              Call: [Phone to be added]
+              Call: 9486162733
             </a>
           </div>
         </div>
@@ -1156,7 +1156,7 @@ function Gallery() {
         </div>
 
         <p className="text-center text-white/30 font-mono text-xs uppercase tracking-widest mt-12">
-          Product images available on request · info@smjpharma.com
+          Product images available on request · smjpharma@gmail.com
         </p>
       </div>
     </section>
@@ -1242,23 +1242,23 @@ function ContactForm() {
     {
       icon: Phone,
       label: 'Call directly',
-      value: '[Phone number to be added] / [Phone number to be added]',
-      href: 'tel:+910000000000',
+      value: '9486162733',
+      href: 'tel:+919486162733',
       color: 'bg-primary/10 border-primary/20 group-hover:bg-primary',
       iconColor: 'text-primary group-hover:text-white',
     },
     {
       icon: Mail,
       label: 'Email us',
-      value: 'info@smjpharma.com',
-      href: 'mailto:info@smjpharma.com',
+      value: 'smjpharma@gmail.com',
+      href: 'mailto:smjpharma@gmail.com',
       color: 'bg-primary/10 border-primary/20 group-hover:bg-primary',
       iconColor: 'text-primary group-hover:text-white',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: '[Address to be added], Tamil Nadu, India',
+      value: '4/296 Ponni Street, Sevugan Chettiyar Colony, Athikulam, Madurai - 625 014',
       href: null,
       color: 'bg-primary/10 border-primary/20',
       iconColor: 'text-primary',
@@ -1267,7 +1267,7 @@ function ContactForm() {
       icon: MessageCircle,
       label: 'WhatsApp',
       value: 'Chat with us',
-      href: 'https://wa.me/910000000000',
+      href: 'https://wa.me/919486162733',
       external: true,
       color: 'bg-emerald-500/10 border-emerald-500/20 group-hover:bg-emerald-500',
       iconColor: 'text-emerald-600 group-hover:text-white',
@@ -1385,10 +1385,9 @@ function Footer() {
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-accent mb-4">Contact</p>
             <ul className="space-y-2.5">
-              <li><a href="tel:+910000000000" className="text-white/65 hover:text-accent transition text-sm">[Phone to be added]</a></li>
-              <li><a href="tel:+910000000000" className="text-white/65 hover:text-accent transition text-sm">[Phone to be added]</a></li>
-              <li><a href="mailto:info@smjpharma.com" className="text-white/65 hover:text-accent transition text-sm">info@smjpharma.com</a></li>
-              <li className="text-white/65 text-sm">[Address to be added], Tamil Nadu</li>
+              <li><a href="tel:+919486162733" className="text-white/65 hover:text-accent transition text-sm">9486162733</a></li>
+              <li><a href="mailto:smjpharma@gmail.com" className="text-white/65 hover:text-accent transition text-sm">smjpharma@gmail.com</a></li>
+              <li className="text-white/65 text-sm">4/296 Ponni Street, Sevugan Chettiyar Colony, Athikulam, Madurai - 625 014</li>
             </ul>
           </div>
         </div>
